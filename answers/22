@@ -1,0 +1,1 @@
+#((fn problem22 [acc col] (if (empty? col) acc (problem22 (inc acc) (rest col)))) 0 %)

@@ -1,0 +1,4 @@
+(fn problem21 [col idx]
+  (if (zero? idx)
+    (first col)
+    (problem21 (rest col) (dec idx))))

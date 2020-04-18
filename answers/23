@@ -1,0 +1,4 @@
+#((fn problem23 [o r]
+  (if (empty? o)
+    r
+    (problem23 (rest o) (conj r (first o))))) %1 '())

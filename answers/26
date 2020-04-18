@@ -1,0 +1,1 @@
+#((fn problem24 [i j acc count] (if (zero? count) acc (problem24 j (+ i j) (conj acc i) (dec count)))) 1 1 [] %)
